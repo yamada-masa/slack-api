@@ -124,11 +124,11 @@ public class User {
 		this.has_files = has_files;
 	}
 
-	public Boolean getIs_Bot() {
+	public Boolean getIs_bot() {
 		return is_bot;
 	}
 
-	public void setIs_Bot(Boolean is_bot) {
+	public void setIs_bot(Boolean is_bot) {
 		this.is_bot = is_bot;
 	}
 	
