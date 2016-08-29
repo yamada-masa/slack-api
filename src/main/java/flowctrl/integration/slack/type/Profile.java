@@ -10,6 +10,7 @@ public class Profile {
 	protected String real_name;
 	protected String email;
 	protected String skype;
+	protected String title;
 	protected String phone;
 	protected String image_24;
 	protected String image_32;
@@ -57,6 +58,14 @@ public class Profile {
 		this.skype = skype;
 	}
 
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	
 	public String getPhone() {
 		return phone;
 	}
